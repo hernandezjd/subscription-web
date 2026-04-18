@@ -1,0 +1,60 @@
+{
+  "navigation": {
+    "dashboard": "Dashboard",
+    "plans": "Plans",
+    "history": "History"
+  },
+  "dashboard": {
+    "title": "Subscription",
+    "currentPlan": "Current Plan",
+    "quotaUsage": "Quota Usage",
+    "users": "Users",
+    "transactions": "Transactions / Month",
+    "apiCalls": "API Calls / Month",
+    "unlimited": "Unlimited",
+    "trialDaysRemaining": "{{days}} days remaining in trial",
+    "autoRenew": "Auto-renew",
+    "upgradeCta": "Upgrade Plan",
+    "perMonth": "/ month",
+    "perYear": "/ year",
+    "startDate": "Start Date",
+    "expirationDate": "Expiration Date",
+    "status": "Status",
+    "renewalOn": "Renewal on"
+  },
+  "plans": {
+    "title": "Subscription Plans",
+    "currentPlan": "Current Plan",
+    "selectPlan": "Select Plan",
+    "perMonth": "/ month",
+    "perYear": "/ year",
+    "upgrade": "Upgrade",
+    "downgrade": "Downgrade",
+    "confirmTitle": "Change Subscription Plan",
+    "confirmMessage": "Are you sure you want to switch to the \"{{name}}\" plan?",
+    "maxUsers": "Max Users",
+    "maxTransactions": "Max Transactions / Month",
+    "apiRateLimit": "API Rate Limit",
+    "unlimited": "Unlimited"
+  },
+  "history": {
+    "title": "Subscription History",
+    "noHistory": "No subscription history available.",
+    "plan": "Plan",
+    "status": "Status",
+    "startDate": "Start Date",
+    "expirationDate": "Expiration Date",
+    "autoRenew": "Auto-renew"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "confirm": "Confirm",
+    "loading": "Loading..."
+  },
+  "error": {
+    "title": "Error",
+    "requestId": "Request ID"
+  }
+}

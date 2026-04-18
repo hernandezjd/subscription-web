@@ -1,0 +1,60 @@
+{
+  "navigation": {
+    "dashboard": "Панель",
+    "plans": "Плани",
+    "history": "Історія"
+  },
+  "dashboard": {
+    "title": "Підписка",
+    "currentPlan": "Поточний план",
+    "quotaUsage": "Використання квот",
+    "users": "Користувачі",
+    "transactions": "Транзакції / місяць",
+    "apiCalls": "API-виклики / місяць",
+    "unlimited": "Без обмежень",
+    "trialDaysRemaining": "{{days}} днів залишилось у пробному режимі",
+    "autoRenew": "Автоподовження",
+    "upgradeCta": "Покращити план",
+    "perMonth": "/ місяць",
+    "perYear": "/ рік",
+    "startDate": "Дата початку",
+    "expirationDate": "Дата закінчення",
+    "status": "Статус",
+    "renewalOn": "Поновлення"
+  },
+  "plans": {
+    "title": "Плани підписки",
+    "currentPlan": "Поточний план",
+    "selectPlan": "Вибрати план",
+    "perMonth": "/ місяць",
+    "perYear": "/ рік",
+    "upgrade": "Покращити",
+    "downgrade": "Знизити",
+    "confirmTitle": "Змінити план підписки",
+    "confirmMessage": "Ви впевнені, що хочете перейти на план \"{{name}}\"?",
+    "maxUsers": "Макс. користувачів",
+    "maxTransactions": "Макс. транзакцій / місяць",
+    "apiRateLimit": "Ліміт API",
+    "unlimited": "Без обмежень"
+  },
+  "history": {
+    "title": "Історія підписки",
+    "noHistory": "Історія підписки відсутня.",
+    "plan": "План",
+    "status": "Статус",
+    "startDate": "Дата початку",
+    "expirationDate": "Дата закінчення",
+    "autoRenew": "Автоподовження"
+  },
+  "common": {
+    "cancel": "Скасувати",
+    "save": "Зберегти",
+    "close": "Закрити",
+    "confirm": "Підтвердити",
+    "loading": "Завантаження..."
+  },
+  "error": {
+    "title": "Помилка",
+    "requestId": "ID запиту"
+  }
+}

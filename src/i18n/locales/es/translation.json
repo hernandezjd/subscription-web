@@ -1,0 +1,60 @@
+{
+  "navigation": {
+    "dashboard": "Panel",
+    "plans": "Planes",
+    "history": "Historial"
+  },
+  "dashboard": {
+    "title": "Suscripción",
+    "currentPlan": "Plan Actual",
+    "quotaUsage": "Uso de Cuota",
+    "users": "Usuarios",
+    "transactions": "Transacciones / Mes",
+    "apiCalls": "Llamadas API / Mes",
+    "unlimited": "Ilimitado",
+    "trialDaysRemaining": "{{days}} días restantes en prueba",
+    "autoRenew": "Renovación automática",
+    "upgradeCta": "Mejorar Plan",
+    "perMonth": "/ mes",
+    "perYear": "/ año",
+    "startDate": "Fecha de inicio",
+    "expirationDate": "Fecha de vencimiento",
+    "status": "Estado",
+    "renewalOn": "Renovación el"
+  },
+  "plans": {
+    "title": "Planes de Suscripción",
+    "currentPlan": "Plan Actual",
+    "selectPlan": "Seleccionar Plan",
+    "perMonth": "/ mes",
+    "perYear": "/ año",
+    "upgrade": "Mejorar",
+    "downgrade": "Degradar",
+    "confirmTitle": "Cambiar Plan de Suscripción",
+    "confirmMessage": "¿Está seguro de que desea cambiar al plan \"{{name}}\"?",
+    "maxUsers": "Usuarios Máximos",
+    "maxTransactions": "Transacciones Máximas / Mes",
+    "apiRateLimit": "Límite de API",
+    "unlimited": "Ilimitado"
+  },
+  "history": {
+    "title": "Historial de Suscripción",
+    "noHistory": "No hay historial de suscripción disponible.",
+    "plan": "Plan",
+    "status": "Estado",
+    "startDate": "Fecha de inicio",
+    "expirationDate": "Fecha de vencimiento",
+    "autoRenew": "Renovación automática"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "loading": "Cargando..."
+  },
+  "error": {
+    "title": "Error",
+    "requestId": "ID de solicitud"
+  }
+}

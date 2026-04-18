@@ -1,0 +1,60 @@
+{
+  "navigation": {
+    "dashboard": "Tableau de bord",
+    "plans": "Plans",
+    "history": "Historique"
+  },
+  "dashboard": {
+    "title": "Abonnement",
+    "currentPlan": "Plan Actuel",
+    "quotaUsage": "Utilisation des Quotas",
+    "users": "Utilisateurs",
+    "transactions": "Transactions / Mois",
+    "apiCalls": "Appels API / Mois",
+    "unlimited": "Illimité",
+    "trialDaysRemaining": "{{days}} jours restants en période d'essai",
+    "autoRenew": "Renouvellement automatique",
+    "upgradeCta": "Améliorer le Plan",
+    "perMonth": "/ mois",
+    "perYear": "/ an",
+    "startDate": "Date de début",
+    "expirationDate": "Date d'expiration",
+    "status": "Statut",
+    "renewalOn": "Renouvellement le"
+  },
+  "plans": {
+    "title": "Plans d'Abonnement",
+    "currentPlan": "Plan Actuel",
+    "selectPlan": "Choisir un Plan",
+    "perMonth": "/ mois",
+    "perYear": "/ an",
+    "upgrade": "Améliorer",
+    "downgrade": "Rétrograder",
+    "confirmTitle": "Changer de Plan d'Abonnement",
+    "confirmMessage": "Voulez-vous vraiment passer au plan \"{{name}}\" ?",
+    "maxUsers": "Utilisateurs Maximum",
+    "maxTransactions": "Transactions Maximum / Mois",
+    "apiRateLimit": "Limite API",
+    "unlimited": "Illimité"
+  },
+  "history": {
+    "title": "Historique d'Abonnement",
+    "noHistory": "Aucun historique d'abonnement disponible.",
+    "plan": "Plan",
+    "status": "Statut",
+    "startDate": "Date de début",
+    "expirationDate": "Date d'expiration",
+    "autoRenew": "Renouvellement automatique"
+  },
+  "common": {
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "loading": "Chargement..."
+  },
+  "error": {
+    "title": "Erreur",
+    "requestId": "ID de la demande"
+  }
+}
