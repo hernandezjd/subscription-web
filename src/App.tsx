@@ -1,7 +1,7 @@
 import { AuthProvider } from 'react-oidc-context'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import { oidcConfig } from './oidc-config'
+import { oidcConfig, userManager } from './oidc-config'
 import { AuthGuard } from './components/AuthGuard'
 import { AppThemeProvider } from './context/ThemeProvider'
 import { ErrorProvider, useError } from './context/ErrorContext'
@@ -44,7 +44,7 @@ function AppContent() {
 
 export default function App() {
   return (
-    <AuthProvider {...oidcConfig}>
+    <AuthProvider {...oidcConfig} userManager={userManager}>
       <QueryClientProvider client={queryClient}>
         <AppThemeProvider>
           <ErrorProvider>
