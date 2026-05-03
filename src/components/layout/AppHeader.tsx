@@ -1,7 +1,7 @@
 import AppBar from '@mui/material/AppBar'
 import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
 import IconButton from '@mui/material/IconButton'
+import Box from '@mui/material/Box'
 import MenuIcon from '@mui/icons-material/Menu'
 
 interface AppHeaderProps {
@@ -19,9 +19,7 @@ export function AppHeader({ onMenuToggle }: AppHeaderProps) {
         >
           <MenuIcon />
         </IconButton>
-        <Typography variant="h6" noWrap component="div">
-          Subscription
-        </Typography>
+        <Box component="img" src="/orkidea-logo.svg" alt="orkidea" sx={{ height: 32 }} />
       </Toolbar>
     </AppBar>
   )
