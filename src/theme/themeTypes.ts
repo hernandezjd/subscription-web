@@ -31,7 +31,7 @@ export interface ThemeSettings {
 
 export const defaultThemeSettings: ThemeSettings = {
   palette: {
-    primaryMain: '#1976d2',
+    primaryMain: '#581fc1',
     secondaryMain: '#9c27b0',
     errorMain: '#d32f2f',
     warningMain: '#ed6c02',
