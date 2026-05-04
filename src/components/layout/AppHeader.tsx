@@ -19,7 +19,7 @@ export function AppHeader({ onMenuToggle }: AppHeaderProps) {
         >
           <MenuIcon />
         </IconButton>
-        <Box component="img" src="/orkidea-logo.svg" alt="orkidea" sx={{ height: 32 }} />
+        <Box component="img" src="orkidea-logo.png" alt="orkidea" sx={{ height: 32 }} />
       </Toolbar>
     </AppBar>
   )
