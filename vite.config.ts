@@ -30,5 +30,17 @@ export default defineConfig({
   },
   server: {
     port: 5175,
+    proxy: {
+      '/api/subscription': {
+        target: 'http://localhost:8080',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/subscription/, ''),
+      },
+      '/api/workspace': {
+        target: 'http://localhost:8080',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/workspace/, ''),
+      },
+    },
   },
 })
