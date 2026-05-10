@@ -3,8 +3,13 @@ import { userManager } from '@/auth/oidc-config'
 
 let redirectingToLogin = false
 
-const subscriptionBaseUrl = import.meta.env.VITE_SUBSCRIPTION_API_URL ?? 'http://localhost:8080'
-const workspaceBaseUrl = import.meta.env.VITE_WORKSPACE_API_URL ?? 'http://localhost:8080'
+// Same-origin fallback: in dev, hit the gateway directly on localhost:8080.
+// In any deployed environment, route via nginx at `${origin}/api` (see accounts/deploy/nginx/nginx-qa.conf).
+const defaultApiBase =
+  window.location.hostname === 'localhost' ? 'http://localhost:8080' : `${window.location.origin}/api`
+
+const subscriptionBaseUrl = import.meta.env.VITE_SUBSCRIPTION_API_URL ?? defaultApiBase
+const workspaceBaseUrl = import.meta.env.VITE_WORKSPACE_API_URL ?? defaultApiBase
 
 /**
  * Extract workspaceId from current URL pathname.
