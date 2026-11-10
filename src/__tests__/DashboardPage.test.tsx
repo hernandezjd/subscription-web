@@ -90,7 +90,7 @@ describe('DashboardPage', () => {
   it('shows unlimited label when maxUsers is null', async () => {
     const { useApiQuery } = await import('@accounts/error-handling-web')
     const quotaUnlimited = { ...mockQuota, maxUsers: null, usersPercentage: 0 }
-    vi.mocked(useApiQuery).mockImplementation((key: unknown[], _fn: unknown, _opts: unknown) => {
+    vi.mocked(useApiQuery).mockImplementation((key: readonly unknown[]) => {
       const keyStr = JSON.stringify(key)
       if (keyStr.includes('subscription')) return { data: mockSubscription, isLoading: false } as ReturnType<typeof useApiQuery>
       if (keyStr.includes('quotas')) return { data: quotaUnlimited, isLoading: false } as ReturnType<typeof useApiQuery>

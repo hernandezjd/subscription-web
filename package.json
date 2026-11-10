@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest run",
+    "typecheck:tests": "tsc -p tsconfig.tests.json",
+    "test": "npm run typecheck:tests && vitest run",
     "test:watch": "vitest",
     "generate-api": "openapi-typescript ../accounts/docs/api/subscription-api.yaml -o src/api/types.ts"
   },
