@@ -12,7 +12,7 @@ const appVersion = packageJson.version
 let commitHash = 'unknown'
 try {
   commitHash = execSync('git rev-parse --short HEAD', { cwd: __dirname }).toString().trim()
-} catch (_e) {
+} catch {
   // Git not available
 }
 

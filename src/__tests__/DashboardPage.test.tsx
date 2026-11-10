@@ -44,7 +44,7 @@ const mockQuota = {
 }
 
 vi.mock('@accounts/error-handling-web', () => ({
-  useApiQuery: vi.fn((key: unknown[], _fn: unknown, _opts: unknown) => {
+  useApiQuery: vi.fn((key: unknown[]) => {
     const keyStr = JSON.stringify(key)
     if (keyStr.includes('subscription')) return { data: mockSubscription, isLoading: false }
     if (keyStr.includes('quotas')) return { data: mockQuota, isLoading: false }

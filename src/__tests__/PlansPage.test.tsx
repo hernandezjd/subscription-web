@@ -51,7 +51,7 @@ const mockSubscription = {
 }
 
 vi.mock('@accounts/error-handling-web', () => ({
-  useApiQuery: vi.fn((key: unknown[], _fn: unknown, _opts: unknown) => {
+  useApiQuery: vi.fn((key: unknown[]) => {
     const keyStr = JSON.stringify(key)
     if (keyStr.includes('plans')) return { data: mockPlans, isLoading: false }
     if (keyStr.includes('subscription')) return { data: mockSubscription, isLoading: false }

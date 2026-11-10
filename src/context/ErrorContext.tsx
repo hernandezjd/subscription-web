@@ -28,6 +28,8 @@ export function ErrorProvider({ children }: { children: ReactNode }) {
   )
 }
 
+// The hook lives next to its provider on purpose; splitting it would only add a file.
+// eslint-disable-next-line react-refresh/only-export-components
 export function useError() {
   const context = useContext(ErrorContext)
   if (!context) {
